@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #1C3B64;
+}
+.navbar-brand{
+    color: #FCFCFD;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+}
+.hero{
+   background-color: #1C3B64;
+}
