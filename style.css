@@ -27,8 +27,12 @@ body{
   padding-left: 64px;
   padding-right: 64px;
 }
+.wrapper{
+    background-color: #14325C !important;
+    height: 100vh;
+}
 .hero {
-  background-color: #14325C !important;
+  
 }
 .hero_title{
     font-size: 48px;
@@ -44,4 +48,7 @@ body{
 }
 .buttonSignUp{
     border-radius: 20px;
+}
+.img_hero{
+    width: 70%;
 }
