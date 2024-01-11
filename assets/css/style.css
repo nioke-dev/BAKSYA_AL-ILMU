@@ -27,6 +27,18 @@ body {
 }
 .hero {
 }
+.subHeroRow{
+  background: linear-gradient(to right, #14325c, #17355E);
+}
+.subHeroMain{
+  color: #fff;
+  font-size: 32px;
+}
+.subHeroMain2{
+  color: #fff;
+  font-size: 20px;
+
+}
 .hero_title {
   font-size: 58px;
   color: #fefefe;
@@ -72,12 +84,40 @@ body {
 .about_us_img{
   width: 100%;
 }
+.about_us_title{
+  font-size: 32px;
+  color: #383838;
+}
+.about_us_text{
+  font-size: 14px;
+  margin-top: 18px;
+  color: #6c6c6c;
+
+}
 .about_us .container{
   padding-top: 76px;
   padding-bottom: 50px;
 }
 .img_why_us{
-  width: 450px;
+  width: 420px;
+  height: 100%;
+  border-radius: 10px 30px 120px 10px;
+}
+.img_item_why_us{
+  width: 35px;
+  height: 35px;
+
+}
+.title_why_us{
+  font-size: 32px;
+}
+.list_why_us_text{
+  font-size: 14px;
+  color: #6c6c6c;
+}
+.subtitle_why_us{
+  color: #7B7C7C !important;
+  font-size: 16px !important;
 }
 .ket1_kelas{
   font-size: 13px;
@@ -89,4 +129,30 @@ body {
   font-size: 13px;
   color: #2C5FA4;
   width: 100%;
+}
+
+.benefit{
+  background-color: #FAFAFD;
+}
+.benefit_event_text{
+  font-size: 12px;
+}
+.alert_event{
+  border-radius: 20px !important;
+  height: 30px;
+  font-size: 13px;
+}
+.iconKetHari{
+  width: 16px;
+  height: 16px;
+}
+.textKetHari{
+  font-size: 10px;
+  color: #2C5FA4;
+}
+.event_keterangan{
+  font-size: 12px;
+}
+.title_item_why_us{
+  font-size: 20px;
 }
