@@ -22,28 +22,25 @@ body {
   padding-right: 64px;
 }
 .wrapper {
-    background: linear-gradient(to right, #14325c, #17355E);
+  background: linear-gradient(to right, #14325c, #17355e);
   height: 100vh;
 }
 
-.footer{
-  background: linear-gradient(to right, #14325c, #17355E);
+.footer {
+  background: linear-gradient(to right, #14325c, #17355e);
 }
-.hero {
-}
-.subHeroRow{
-  background: linear-gradient(to right, #14325c, #17355E);
+.subHeroRow {
+  background: linear-gradient(to right, #14325c, #17355e);
   height: 120px;
   align-items: center;
 }
-.subHeroMain{
+.subHeroMain {
   color: #fff;
   font-size: 32px;
 }
-.subHeroMain2{
+.subHeroMain2 {
   color: #fff;
   font-size: 20px;
-
 }
 .hero_title {
   font-size: 58px;
@@ -84,121 +81,118 @@ body {
   width: 180px;
   height: 45px;
 }
-.about_us{
-  background-color: #F2F6F8;
+.about_us {
+  background-color: #f2f6f8;
 }
-.about_us_img{
+.about_us_img {
   width: 100%;
 }
-.about_us_title{
+.about_us_title {
   font-size: 32px;
   color: #383838;
 }
-.about_us_text{
+.about_us_text {
   font-size: 14px;
   margin-top: 18px;
   color: #6c6c6c;
-
 }
-.about_us .container{
+.about_us .container {
   padding-top: 76px;
   padding-bottom: 50px;
 }
-.title_big_class{
+.title_big_class {
   font-size: 32px;
 }
-.why_us{
-  background-color: #F2F6F8;
+.why_us {
+  background-color: #f2f6f8;
 }
-.rekomendasi_kelas{
-  background-color: #F2F6F8;
+.rekomendasi_kelas {
+  background-color: #f2f6f8;
 }
-.img_why_us{
+.img_why_us {
   width: 420px;
   height: 100%;
   border-radius: 10px 30px 120px 10px;
 }
-.img_item_why_us{
+.img_item_why_us {
   width: 35px;
   height: 35px;
-
 }
-.title_why_us{
+.title_why_us {
   font-size: 32px;
 }
-.list_why_us_text{
+.list_why_us_text {
   font-size: 14px;
   color: #6c6c6c;
 }
-.subtitle_why_us{
-  color: #7B7C7C !important;
+.subtitle_why_us {
+  color: #7b7c7c !important;
   font-size: 16px !important;
 }
-.ket1_kelas{
+.ket1_kelas {
   font-size: 13px;
-  color: #2C5FA4;
+  color: #2c5fa4;
   width: 100%;
 }
 
-.ket2_kelas{
+.ket2_kelas {
   font-size: 13px;
-  color: #2C5FA4;
+  color: #2c5fa4;
   width: 100%;
 }
 
-.benefit{
-  background-color: #FAFAFD;
+.benefit {
+  background-color: #fafafd;
 }
-.benefit_event_text{
+.benefit_event_text {
   font-size: 12px;
 }
-.alert_event{
+.alert_event {
   border-radius: 20px !important;
   height: 30px;
   font-size: 13px;
 }
-.iconKetHari{
+.iconKetHari {
   width: 16px;
   height: 16px;
 }
-.textKetHari{
+.textKetHari {
   font-size: 10px;
-  color: #2C5FA4;
+  color: #2c5fa4;
 }
-.event_keterangan{
+.event_keterangan {
   font-size: 12px;
 }
-.title_item_why_us{
+.title_item_why_us {
   font-size: 20px;
 }
-.card_kelas{
+.card_kelas {
   border: none;
   border-radius: 20px !important;
 }
-.event_brand{
+.event_brand {
   font-size: 32px;
   color: #383838;
 }
-.event_sub_brand{
+.event_sub_brand {
   font-size: 14px;
   color: #6c6c6c;
 }
-.footer{
+.footer {
   padding: 20px;
 }
-.footer_brand{
+.footer_brand {
   color: #fff;
 }
-.footer_email{
+.footer_email {
   color: #fff;
 }
-.footer_telp{
+.footer_telp {
   color: #fff;
 }
-.footer_list{
+.footer_list {
   list-style: none;
 }
-.footer_list_item{
+.footer_list_item {
   color: #fff;
-  
 }
