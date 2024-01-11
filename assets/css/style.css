@@ -29,6 +29,8 @@ body {
 }
 .subHeroRow{
   background: linear-gradient(to right, #14325c, #17355E);
+  height: 120px;
+  align-items: center;
 }
 .subHeroMain{
   color: #fff;
@@ -98,6 +100,15 @@ body {
   padding-top: 76px;
   padding-bottom: 50px;
 }
+.title_big_class{
+  font-size: 32px;
+}
+.why_us{
+  background-color: #F2F6F8;
+}
+.rekomendasi_kelas{
+  background-color: #F2F6F8;
+}
 .img_why_us{
   width: 420px;
   height: 100%;
@@ -155,4 +166,8 @@ body {
 }
 .title_item_why_us{
   font-size: 20px;
+}
+.card_kelas{
+  border: none;
+  border-radius: 20px !important;
 }
