@@ -66,3 +66,27 @@ body {
   width: 180px;
   height: 45px;
 }
+.about_us{
+  background-color: #F2F6F8;
+}
+.about_us_img{
+  width: 100%;
+}
+.about_us .container{
+  padding-top: 76px;
+  padding-bottom: 50px;
+}
+.img_why_us{
+  width: 450px;
+}
+.ket1_kelas{
+  font-size: 13px;
+  color: #2C5FA4;
+  width: 100%;
+}
+
+.ket2_kelas{
+  font-size: 13px;
+  color: #2C5FA4;
+  width: 100%;
+}
