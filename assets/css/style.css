@@ -23,14 +23,9 @@ body {
 }
 .wrapper {
   background: linear-gradient(to right, #14325c, #17355e);
-  height: 100vh;
-}
-
-.footer {
-  background: linear-gradient(to right, #14325c, #17355e);
 }
 .subHeroRow {
-  background: linear-gradient(to right, #14325c, #17355e);
+  background: #17355E;
   height: 120px;
   align-items: center;
 }
@@ -59,8 +54,7 @@ body {
   border-radius: 20px;
 }
 .img_hero {
-  width: 70%;
-  height: 300px;
+  width: 90%;
   margin-top: 10px;
   border-radius: 20px;
 }
@@ -178,7 +172,7 @@ body {
   font-size: 14px;
   color: #6c6c6c;
 }
-.footer {
+/* .footer {
   padding: 20px;
 }
 .footer_brand {
@@ -196,3 +190,37 @@ body {
 .footer_list_item {
   color: #fff;
 }
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  color: #ffffff;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.footer h5 {
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-bottom: 0.25rem;
+}
+
+.footer ul li a {
+  display: block;
+} */
