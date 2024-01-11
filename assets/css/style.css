@@ -171,3 +171,11 @@ body {
   border: none;
   border-radius: 20px !important;
 }
+.event_brand{
+  font-size: 32px;
+  color: #383838;
+}
+.event_sub_brand{
+  font-size: 14px;
+  color: #6c6c6c;
+}
