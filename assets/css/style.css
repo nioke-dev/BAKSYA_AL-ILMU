@@ -25,6 +25,10 @@ body {
     background: linear-gradient(to right, #14325c, #17355E);
   height: 100vh;
 }
+
+.footer{
+  background: linear-gradient(to right, #14325c, #17355E);
+}
 .hero {
 }
 .subHeroRow{
@@ -178,4 +182,23 @@ body {
 .event_sub_brand{
   font-size: 14px;
   color: #6c6c6c;
+}
+.footer{
+  padding: 20px;
+}
+.footer_brand{
+  color: #fff;
+}
+.footer_email{
+  color: #fff;
+}
+.footer_telp{
+  color: #fff;
+}
+.footer_list{
+  list-style: none;
+}
+.footer_list_item{
+  color: #fff;
+  
 }
