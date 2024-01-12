@@ -122,19 +122,19 @@
           <div class="card">
             <div class="card-body">
               <div class="row">
-                <div class="col-3">
+                <div class="col-3 detailKetEventHero">
                   <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
                   <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3 detailKetEventHero">
                   <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
                   <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3 detailKetEventHero">
                   <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
                   <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
                 </div>
-                <div class="col-3">
+                <div class="col-3 detailKetEventHero">
                   <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
                   <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
                 </div>
@@ -414,6 +414,34 @@
         </div>
       </div>
     </section>
+    <script>
+      function cekWindowSize() {
+        // Mendapatkan lebar layar
+        var screenWidth =
+          window.innerWidth ||
+          document.documentElement.clientWidth ||
+          document.body.clientWidth;
+
+        // Mendapatkan elemen dengan class "subHeroRow"
+        var elements = document.getElementsByClassName("detailKetEventHero");
+
+        // Iterasi melalui elemen dan hapus class ps-5 dan pe-5
+        for (var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+          if (screenWidth <= 768) {
+            element.classList.remove("col-3");
+            element.classList.add("col-6")
+          } else {
+            element.classList.remove("col-6");
+            element.classList.add("col-3");
+          }
+        }
+      }
+
+      // Menjalankan fungsi pada saat halaman dimuat dan saat jendela diubah ukurannya
+      window.onload = cekWindowSize;
+      window.onresize = cekWindowSize;
+    </script>
       <!-- ---------------------------------------------------------------------------------------------------------------- -->
     <!-- Hero Section End  -->
     <!-- Script Code For Bootstrap Start -->

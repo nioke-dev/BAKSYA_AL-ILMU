@@ -361,7 +361,7 @@ body {
   padding-right: 5%;
 }
 .ketEventHiro .col-12 .card {
-  height: 120px !important;
+  height: 100% !important;
   border: none;
   border-radius: 20px !important;
   padding: 12px;
