@@ -186,7 +186,8 @@ body {
   background-color: #fafafd;
 }
 .benefit_event_text {
-  font-size: 12px;
+  font-size: 11px;
+  color: #6c6c6c;
 }
 .alert_event {
   border-radius: 20px !important;
@@ -384,4 +385,8 @@ body {
 .ketEventValue{
   font-size: 14px;
   color: #6c6c6c;
+}
+.card_benefit{
+  border: none;
+  border-radius: 80px !important;
 }
