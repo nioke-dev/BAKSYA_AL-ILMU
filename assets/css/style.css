@@ -430,3 +430,18 @@ body {
 .card_event_lainnya{
   border: none;
 }
+.kebalikanHero{
+  margin-top: 10px;
+  background: linear-gradient(to right, #17355e, #14325c);
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.heroBawahTitle{
+  font-size: 32px;
+  color: #f0e5e5;
+}
+.heroBawahText{
+  font-size: 14px;
+  color: #f0e5e5;
+}
