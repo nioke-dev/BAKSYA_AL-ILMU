@@ -93,7 +93,7 @@ body {
   width: 100%;
 }
 .about_us_title {
-  font-size: 32px;
+  font-size: 44px;
   color: #383838;
 }
 .about_us_text {
@@ -115,7 +115,7 @@ body {
   background-color: #f2f6f8;
 }
 .img_why_us {
-  width: 420px;
+  width: 100%;
   height: 100%;
   border-radius: 10px 30px 120px 10px;
 }
