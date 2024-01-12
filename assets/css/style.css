@@ -204,6 +204,18 @@ body {
   font-size: 14px;
   color: #6c6c6c;
 }
+
+.title_event {
+  margin-top: 75px;
+}
+.img_hero_event{
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 65%;
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
 /* .footer {
   padding: 20px;
 }
