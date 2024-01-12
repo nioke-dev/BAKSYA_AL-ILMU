@@ -45,7 +45,6 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
-  background-attachment: fixed;
 }
 .subHeroRow {
   background: #17355e;
