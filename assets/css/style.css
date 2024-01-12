@@ -31,6 +31,7 @@ body {
   justify-content: space-between !important;
   padding-left: 64px;
   padding-right: 64px;
+  height: 64px;
 }
 .wrapper {
   background: linear-gradient(to right, #14325c, #17355e);
@@ -235,3 +236,15 @@ body {
 .footer ul li a {
   display: block;
 } */
+
+.silabus_path{
+  background: linear-gradient(to right, #14325c, #17355e);
+}
+.garisVertikal{
+  border-left: 2px solid #fff;
+  height: 100%;
+}
+.panahSilabus{
+  font-size: 32px;
+  color: #fff;
+}
