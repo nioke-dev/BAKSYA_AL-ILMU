@@ -36,6 +36,10 @@ body {
 .wrapper {
   background: linear-gradient(to right, #14325c, #17355e);
 }
+
+.hero {
+  margin-top: 50px;
+}
 .subHeroRow {
   background: #17355e;
   height: 120px;
@@ -50,7 +54,7 @@ body {
   font-size: 20px;
 }
 .hero_title {
-  font-size: 58px;
+  font-size: 38px;
   color: #fefefe;
 }
 .hero_subtitle {
@@ -66,9 +70,10 @@ body {
   border-radius: 20px;
 }
 .img_hero {
-  width: 90%;
-  margin-top: 10px;
-  border-radius: 20px;
+  width: 100%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  /* border-radius: 20px; */
 }
 .btn-hero1 {
   background-color: #fff;
@@ -91,7 +96,8 @@ body {
   background-color: #f2f6f8;
 }
 .about_us_img {
-  width: 100%;
+  width: 80%;
+  margin-right: 20%;
 }
 .about_us_title {
   font-size: 44px;
@@ -116,9 +122,9 @@ body {
   background-color: #f2f6f8;
 }
 .img_why_us {
-  width: 100%;
+  width: 110%;
   height: 100%;
-  border-radius: 10px 30px 120px 10px;
+  /* border-radius: 10px 30px 120px 10px; */
 }
 .img_item_why_us {
   width: 35px;
