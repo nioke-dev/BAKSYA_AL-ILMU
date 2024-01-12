@@ -33,18 +33,8 @@ body {
   padding-right: 64px;
   height: 64px;
 }
-.heroRow{
-  height: calc(100vh - 64px);
-  display: flex;
-  align-items: center;
-}
 .wrapper {
-  /* background: linear-gradient(to right, #14325c, #17355e); */
-  background-image: url("../img/islami.jpg") !important;
-  width: 100%;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-size: cover;
+  background: linear-gradient(to right, #14325c, #17355e);
 }
 .subHeroRow {
   background: #17355e;
