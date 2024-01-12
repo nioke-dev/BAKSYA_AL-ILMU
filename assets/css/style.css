@@ -10,22 +10,29 @@ body {
 }
 
 @media screen and (max-width: 768px) {
- .navbar{
-  padding: 0px !important;
- }
- .subHeroMain2 {
-  color: #fff;
-  font-size: 16px !important;
+  .navbar {
+    padding: 0px !important;
+  }
+  .subHeroMain2 {
+    color: #fff;
+    font-size: 16px !important;
+  }
+  .img_hero_home {
+    margin-right: 0px !important;
+    width: 100%;
+  }
+  .silabus {
+    padding: 0px !important;
+  }
+  .benefit_img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .card_benefit {
+    border-radius: 80px 80px 80px 0px !important;
+  }
 }
-.img_hero_home{
-  margin-right: 0px !important;
-  width: 100%;
-}
-.silabus{
-  padding: 0px !important;
-}
-}
-.benefit_img{
+.benefit_img {
   border-radius: 80px !important;
   width: 100%;
   height: 120px;
@@ -53,7 +60,7 @@ body {
   margin-top: 50px;
 }
 .subHeroRow {
-  background: #17355E;
+  background: #17355e;
   height: 120px;
   align-items: center;
 }
@@ -97,13 +104,13 @@ body {
   width: 50px;
   height: 50px;
 }
-.nama_mentor{
+.nama_mentor {
   font-size: 14px;
-  color: #17355E;
+  color: #17355e;
   margin: 0px;
   padding: 0px;
 }
-.jabatan_mentor{
+.jabatan_mentor {
   font-size: 12px;
   color: #6c6c6c;
   margin: 0px;
@@ -230,14 +237,14 @@ body {
 .title_event {
   margin-top: 75px;
 }
-.img_hero_event{
+.img_hero_event {
   margin-top: 0px;
   padding-top: 0px;
   width: 65%;
   margin-left: 100px;
   margin-bottom: 25px;
 }
-.card_why_detail_course{
+.card_why_detail_course {
   border: none;
   border-radius: 20px !important;
 }
@@ -295,104 +302,128 @@ body {
   display: block;
 } */
 
-.silabus_path{
+.silabus_path {
   /* background: linear-gradient(to right, #14325c, #17355e); */
 }
-.silabus{
+.silabus {
   background: linear-gradient(to right, #14325c, #17355e);
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 68px;
 }
-.silabus_title{
+.silabus_title {
   font-size: 32px;
   color: #fff;
 }
-.garisVertikal{
-  border-left: 2px solid #17355E;
+.garisVertikal {
+  border-left: 2px solid #17355e;
   height: 100%;
 }
-.panahSilabus{
+.panahSilabus {
   font-size: 32px;
   color: #17355e;
 }
-.silabus_path_title{
+.silabus_path_title {
   font-size: 20px;
   color: #17355e;
 }
-.silabus_path_title2{
+.silabus_path_title2 {
   font-size: 21px;
   color: #17355e;
   font-weight: 700;
 }
-.silabus_path_text{
+.silabus_path_text {
   font-size: 14px;
   color: #6c6c6c;
 }
-.mentor_main_title{
+.mentor_main_title {
   font-size: 32px;
   color: #17355e;
 }
-.mentor_main_subtitle{
-    font-size: 14px;
-    color: #6c6c6c;
+.mentor_main_subtitle {
+  font-size: 14px;
+  color: #6c6c6c;
 }
-.biodata_mentor{
+.biodata_mentor {
   margin-top: 5px;
 }
-.list_materi_silabus{
+.list_materi_silabus {
   font-size: 14px;
   color: #6c6c6c;
 }
-.ulasan_klien_main_title{
+.ulasan_klien_main_title {
   font-size: 32px;
   color: #17355e;
 }
-.ketEventHiro{
+.ketEventHiro {
   margin-top: -70px !important;
   padding-left: 5%;
   padding-right: 5%;
 }
-.ketEventHiro .col-12 .card{
+.ketEventHiro .col-12 .card {
   height: 120px !important;
   border: none;
   border-radius: 20px !important;
   padding: 12px;
 }
-.ketEventHiroTitle{
+.ketEventHiroTitle {
   font-size: 14px;
   color: #17355e;
 }
-.ketEventHiroSubtitle{
+.ketEventHiroSubtitle {
   font-size: 12px;
   color: #6c6c6c;
   font-weight: 700;
-} 
-.title_deskripsi_detail_event{
+}
+.title_deskripsi_detail_event {
   font-size: 28px;
   font-weight: 500;
   color: #17355e;
 }
-.detail_event_text{
+.detail_event_text {
   font-size: 14px;
   color: #6c6c6c;
 }
-.detail_event .card{
+.detail_event .card {
   border: none;
-} 
-.detail_event_main{
-  font-size: 28px;
-  font-weight: 500; 
 }
-.ketEventKey{
+.detail_event_main {
+  font-size: 28px;
+  font-weight: 500;
+}
+.ketEventKey {
   font-size: 14px;
   color: #17355e;
 }
-.ketEventValue{
+.ketEventValue {
   font-size: 14px;
   color: #6c6c6c;
 }
-.card_benefit{
+.card_benefit {
   border: none;
-  border-radius: 80px !important;
+  border-radius: 80px;
+}
+.card_kelas {
+  cursor: pointer !important;
+}
+.title_why_us_detail_course {
+  font-size: 32px;
+  color: #17355e;
+}
+.detail_course_why_us_title {
+  font-size: 20px;
+  color: #17355e;
+  font-weight: 700;
+}
+.detail_course_why_us_text {
+  font-size: 14px;
+  color: #6c6c6c;
+}
+.card_silabus {
+  border-radius: 20px;
+  padding: 50px;
+}
+.card_mentor {
+  border-radius: 20px;
+  padding: 20px 10px 10px 10px;
 }
