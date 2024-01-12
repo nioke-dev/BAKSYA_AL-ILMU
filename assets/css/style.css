@@ -421,9 +421,12 @@ body {
 }
 .card_silabus {
   border-radius: 20px;
-  padding: 50px;
+  padding: 20px 50px 50px 50px !important;
 }
 .card_mentor {
   border-radius: 20px;
   padding: 20px 10px 10px 10px;
+}
+.card_event_lainnya{
+  border: none;
 }
