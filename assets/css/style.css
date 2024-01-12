@@ -10,13 +10,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
- .navbar{
-  padding: 0px !important;
- }
- .subHeroMain2 {
-  color: #fff;
-  font-size: 16px !important;
-}
+  .navbar {
+    padding: 0px !important;
+  }
+  .subHeroMain2 {
+    color: #fff;
+    font-size: 16px !important;
+  }
 }
 
 .navbar .navbar-collapse {
@@ -37,7 +37,7 @@ body {
   background: linear-gradient(to right, #14325c, #17355e);
 }
 .subHeroRow {
-  background: #17355E;
+  background: #17355e;
   height: 120px;
   align-items: center;
 }
@@ -237,14 +237,18 @@ body {
   display: block;
 } */
 
-.silabus_path{
+.silabus_path {
   background: linear-gradient(to right, #14325c, #17355e);
 }
-.garisVertikal{
+.garisVertikal {
   border-left: 2px solid #fff;
   height: 100%;
 }
-.panahSilabus{
+.panahSilabus {
   font-size: 32px;
   color: #fff;
+}
+.profil_mentor {
+  width: 70px;
+  height: 70px;
 }
