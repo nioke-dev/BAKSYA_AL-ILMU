@@ -32,7 +32,7 @@
   </head>
 
   <body>
-    <div class="wrapper" style="height: 100vh;">
+    <div class="wrapper">
       <!-- Navbar Section Start -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
@@ -91,7 +91,7 @@
       <section class="hero">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-left mt-5">
+            <div class="col-md-6 text-left mt-2">
               <h2 class="hero_title">
                 Melangkah Bersama Menuju Karakter Unggul Dengan Akhlak Mulia
               </h2>
@@ -115,6 +115,47 @@
           </div>
         </div>
       </section>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color: #14325c" />
+          <stop offset="100%" style="stop-color: #17355e" />
+        </linearGradient>
+      </defs>
+      <path
+        fill="url(#gradient)"
+        fill-opacity="1"
+        d="M0,128L40,149.3C80,171,160,213,240,197.3C320,181,400,107,480,106.7C560,107,640,181,720,197.3C800,213,880,171,960,133.3C1040,96,1120,64,1200,74.7C1280,85,1360,139,1400,165.3L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="ketEventHiro">
+      <div class="row ketEventHiro">
+        <div class="col-12" style="">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3 detailKetEventHero">
+                  <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
+                  <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
+                </div>
+                <div class="col-3 detailKetEventHero">
+                  <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
+                  <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
+                </div>
+                <div class="col-3 detailKetEventHero">
+                  <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
+                  <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
+                </div>
+                <div class="col-3 detailKetEventHero">
+                  <h4 class="ketEventHiroTitle">Durasi Pendaftaran</h4>
+                  <p class="ketEventHiroSubtitle">23 November 2023 - 21 Januari 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
       <section class="why_us">
         <div class="container">
@@ -292,6 +333,42 @@
       </section>
     <!-- Hero Section End  -->
     <!-- Script Code For Bootstrap Start -->
+    <script>
+      function cekWindowSize() {
+        // Mendapatkan lebar layar
+        var screenWidth =
+          window.innerWidth ||
+          document.documentElement.clientWidth ||
+          document.body.clientWidth;
+
+        // Mendapatkan elemen dengan class "subHeroRow"
+        var elements = document.getElementsByClassName("detailKetEventHero");
+
+        // Iterasi melalui elemen dan hapus class ps-5 dan pe-5
+        for (var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+          if (screenWidth <= 768) {
+            element.classList.remove("col-3");
+            element.classList.add("col-6")
+          } else {
+            element.classList.remove("col-6");
+            element.classList.add("col-3");
+          }
+        }
+      }
+
+      // Menjalankan fungsi pada saat halaman dimuat dan saat jendela diubah ukurannya
+      window.onload = cekWindowSize;
+      window.onresize = cekWindowSize;
+    </script>
+      <!-- ---------------------------------------------------------------------------------------------------------------- -->
+    <!-- Hero Section End  -->
+    <!-- Script Code For Bootstrap Start -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

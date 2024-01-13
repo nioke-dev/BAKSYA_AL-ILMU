@@ -31,6 +31,10 @@ body {
   .card_benefit {
     border-radius: 80px 80px 80px 0px !important;
   }
+  .hero_title_layout_event{
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
 }
 .benefit_img {
   border-radius: 80px !important;
@@ -75,6 +79,11 @@ body {
 .hero_title {
   font-size: 38px;
   color: #fefefe;
+}
+.hero_title_layout_event{
+  font-size: 32px;
+  color: #fefefe;
+  margin-bottom: 120px;
 }
 .hero_subtitle {
   color: #f0f2f4;
@@ -195,7 +204,7 @@ body {
 }
 
 .benefit {
-  background-color: #fafafd;
+  background-color: #f2f6f8;
 }
 .benefit_event_text {
   font-size: 11px;
@@ -234,19 +243,18 @@ body {
   color: #6c6c6c;
 }
 
-.title_event {
-  margin-top: 75px;
+.title_event {  
 }
 .img_hero_event {
-  margin-top: 0px;
-  padding-top: 0px;
-  width: 65%;
-  margin-left: 100px;
-  margin-bottom: 25px;
+  width: 100%;
+  height: 50%;
 }
 .card_why_detail_course {
   border: none;
   border-radius: 20px !important;
+}
+.rowHeroLayoutEvent{
+  height: 100%;
 }
 
 /* .footer {
@@ -444,4 +452,8 @@ body {
 .heroBawahText{
   font-size: 14px;
   color: #f0e5e5;
+}
+.card_benefit_layout{
+  border: none;
+  border-radius: 20px;
 }
