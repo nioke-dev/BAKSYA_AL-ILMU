@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f2f6f8;
+  
 }
 .navbar-nav {
   width: 100%;
@@ -12,7 +13,29 @@ body {
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 0px !important;
+    background: linear-gradient(to right, #14325c, #17355e);
   }
+  .navbar-collapse {
+    background: linear-gradient(to right, #14325c, #17355e);
+    text-align: center;
+  }
+  .navbar-collapse .button-navbar-wrapper {
+    display: inline-block !important;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+  }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    display: inline-block !important;
+  }
+  .navbar-collapse .button-navbar-wrapper button {
+    display: inline-block; /* Display buttons horizontally */
+    margin: 0 5px; /* Adjust margin as needed */
+  }
+
   .subHeroMain2 {
     color: #fff;
     font-size: 16px !important;
@@ -31,7 +54,7 @@ body {
   .card_benefit {
     border-radius: 80px 80px 80px 0px !important;
   }
-  .hero_title_layout_event{
+  .hero_title_layout_event {
     margin-top: 80px;
     margin-bottom: 120px;
   }
@@ -80,7 +103,7 @@ body {
   font-size: 38px;
   color: #fefefe;
 }
-.hero_title_layout_event{
+.hero_title_layout_event {
   font-size: 32px;
   color: #fefefe;
   margin-bottom: 120px;
@@ -243,7 +266,7 @@ body {
   color: #6c6c6c;
 }
 
-.title_event {  
+.title_event {
 }
 .img_hero_event {
   width: 100%;
@@ -253,7 +276,7 @@ body {
   border: none;
   border-radius: 20px !important;
 }
-.rowHeroLayoutEvent{
+.rowHeroLayoutEvent {
   height: 100%;
 }
 
@@ -435,25 +458,25 @@ body {
   border-radius: 20px;
   padding: 20px 10px 10px 10px;
 }
-.card_event_lainnya{
+.card_event_lainnya {
   border: none;
 }
-.kebalikanHero{
+.kebalikanHero {
   margin-top: 10px;
   background: linear-gradient(to right, #17355e, #14325c);
   height: 250px;
   display: flex;
   align-items: center;
 }
-.heroBawahTitle{
+.heroBawahTitle {
   font-size: 32px;
   color: #f0e5e5;
 }
-.heroBawahText{
+.heroBawahText {
   font-size: 14px;
   color: #f0e5e5;
 }
-.card_benefit_layout{
+.card_benefit_layout {
   border: none;
   border-radius: 20px;
 }
