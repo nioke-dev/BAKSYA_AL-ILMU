@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
     <!-- Owl Carousel CDN End -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/hover.css" />
     <title>Your Website</title>
   </head>
 
@@ -130,7 +131,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-md-4">
-            <div class="card card_kelas shadow-lg">
+            <div class="card card_kelas shadow-lg hvr-grow">
               <img
                 class="card-img-top"
                 src="assets/img/dummy_kelas.png"
@@ -177,7 +178,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card card_kelas shadow-lg">
+            <div class="card card_kelas shadow-lg hvr-grow">
               <img
                 class="card-img-top"
                 src="assets/img/dummy_kelas.png"
@@ -224,7 +225,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card card_kelas shadow-lg">
+            <div class="card card_kelas shadow-lg hvr-grow">
               <img
                 class="card-img-top"
                 src="assets/img/dummy_kelas.png"
@@ -275,13 +276,13 @@
     </section>
     <script>
       let cardKelas = document.querySelectorAll(".card_kelas");
-      
-      cardKelas.forEach(function(card) {
-          card.addEventListener("click", function() {
-              window.location.href = "detail_course.html";
-          });
+
+      cardKelas.forEach(function (card) {
+        card.addEventListener("click", function () {
+          window.location.href = "detail_course.html";
+        });
       });
-      </script>
+    </script>
 
     <!-- Script Code For Bootstrap Start -->
     <script
