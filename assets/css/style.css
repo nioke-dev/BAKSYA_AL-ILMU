@@ -12,7 +12,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
     background: linear-gradient(to right, #14325c, #17355e);
   }
   .navbar-collapse {
@@ -433,6 +435,9 @@ body {
 .card_benefit {
   border: none;
   border-radius: 80px;
+}
+.navbar{
+  z-index: 50;
 }
 .card_kelas {
   cursor: pointer !important;
