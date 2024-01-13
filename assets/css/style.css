@@ -441,7 +441,7 @@ body {
 .kebalikanHero{
   margin-top: 10px;
   background: linear-gradient(to right, #17355e, #14325c);
-  height: 200px;
+  height: 250px;
   display: flex;
   align-items: center;
 }
