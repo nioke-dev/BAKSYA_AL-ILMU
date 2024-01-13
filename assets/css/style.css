@@ -457,7 +457,7 @@ body {
 }
 .card_silabus {
   border-radius: 20px;
-  padding: 20px 50px 50px 50px !important;
+  padding: 20px 50px 50px 20px !important;
 }
 .card_mentor {
   border-radius: 20px;
