@@ -2,7 +2,6 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f2f6f8;
-  
 }
 .navbar-nav {
   width: 100%;
@@ -286,7 +285,7 @@ body {
   width: 80%;
 }
 
-.img_detail_Card{
+.img_detail_Card {
   margin-bottom: 10%;
   border-radius: 10%;
 }
@@ -348,9 +347,9 @@ body {
   /* background: linear-gradient(to right, #14325c, #17355e); */
 }
 .silabus {
-  background: linear-gradient(to right, #14325c, #17355e);
-  margin-top: 50px;
-  margin-bottom: 50px;
+  background-color: #f2f6f8;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 68px;
 }
 .silabus_title {
@@ -445,7 +444,7 @@ body {
   border: none;
   border-radius: 80px;
 }
-.navbar{
+.navbar {
   z-index: 50;
 }
 .card_kelas {
@@ -493,4 +492,10 @@ body {
 .card_benefit_layout {
   border: none;
   border-radius: 20px;
+}
+/* .col-md-4 {
+  padding-left: 0px !important;
+} */
+.img_hero_detail_event {
+  width: 65% !important;
 }
