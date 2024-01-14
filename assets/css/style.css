@@ -36,6 +36,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .heroBawahTitle{
+    font-size: 24px !important;
+    font-weight: 600;
+  }
+  .heroBawahText{
+    font-size: 13px !important;
+  }
 
   .containerImgMainCourse{
     width: 100%;
@@ -43,7 +50,7 @@ body {
     justify-content: center;
   } 
   .hero_title_layout_bootcamp{
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .hero_title_main_layout_bootcamp{
     font-size: 28px !important;
@@ -60,8 +67,8 @@ body {
     font-size: 28px !important;
   }
   .title_big_class{
-    font-size: 32px !important;
-    font-weight: 600;
+    font-size: 24px !important;
+    font-weight: 450;
   }
   .list_why_us_text{
     font-size: 12px !important;
@@ -107,6 +114,7 @@ body {
   }
   .hero_title{
     margin-top: 0px;
+    font-size: 28px !important;
   }
   .img_detail_course{
     display: none !important;
@@ -171,8 +179,13 @@ body {
     border-radius: 80px 80px 80px 0px !important;
   }
   .hero_title_layout_event {
+    font-size: 28px !important;
     margin-top: 80px;
     margin-bottom: 120px;
+  }
+  .event_brand{
+    font-size: 24px !important;
+    margin-bottom: 15px;
   }
 }
 .benefit_img {
