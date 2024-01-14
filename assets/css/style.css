@@ -8,8 +8,81 @@ body {
   display: flex;
   justify-content: center;
 }
+.img_hero_detail_event_mobile{
+  display: none;
+}
+.img_detail_course_mobile{
+  display: none !important;
+}
+.hero_title{
+  margin-top: 30px;
+}
+.img_hero_home_mobile{
+  display: none !important;
+}
 
 @media screen and (max-width: 768px) {
+  .title_big_class{
+    font-size: 24px !important;
+  }
+  .list_why_us_text{
+    font-size: 12px !important;
+  }
+  .title_item_why_us{
+    font-size: 16px !important;
+  }
+  .list_why_us_col{
+    background-color: #fff !important;
+  }
+  .subtitle_why_us{
+    font-size: 12px !important;
+  }
+  .title_why_us{
+    font-size: 24px !important;
+    margin-top: 32px;
+  }
+  .subHeroMain2{
+    font-size: 12px !important;
+  }
+  .subHeroMain{
+    font-size: 20px !important;
+  }
+  .about_us_text{
+    font-size: 12px !important;
+  }
+  .about_us_title{
+    margin-top: 15px;
+    font-size: 24px !important;
+  }
+  .img_hero_home_mobile{
+    display: block !important;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    /* border-radius: 20px; */
+  }
+  .img_hero_home{
+    display: none !important;
+  }
+  .hero_title{
+    margin-top: 0px;
+  }
+  .img_detail_course{
+    display: none !important;
+  }
+  .img_detail_course_mobile{
+    display: block !important;
+    width: 100% !important;
+    border-radius: 20px;
+  }
+  .img_hero_detail_event{
+    display: none !important;
+  }
+  .img_hero_detail_event_mobile{
+    display: block !important;
+    width: 100% !important;
+    border-radius: 20px;
+  }
   .navbar {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -39,7 +112,7 @@ body {
 
   .subHeroMain2 {
     color: #fff;
-    font-size: 16px !important;
+    font-size: 16px;
   }
   .img_hero_home {
     margin-right: 0px !important;
@@ -101,7 +174,7 @@ body {
   font-size: 20px;
 }
 .hero_title {
-  font-size: 38px;
+  font-size: 32px;
   color: #fefefe;
 }
 .hero_title_layout_event {
@@ -111,7 +184,7 @@ body {
 }
 .hero_subtitle {
   color: #f0f2f4;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 25px;
 }
 .buttonLogin {
@@ -174,7 +247,7 @@ body {
   margin-right: 20%;
 }
 .about_us_title {
-  font-size: 44px;
+  font-size: 32px;
   color: #383838;
 }
 .about_us_text {
@@ -213,7 +286,7 @@ body {
 }
 .subtitle_why_us {
   color: #7b7c7c !important;
-  font-size: 16px !important;
+  font-size: 16px;
 }
 .ket1_kelas {
   font-size: 13px;
@@ -289,7 +362,11 @@ body {
   margin-bottom: 10%;
   border-radius: 10%;
 }
-
+.img_detail_course{
+  width: 80%;
+  height: 80%;
+  border-radius: 10%;
+}
 /* .footer {
   padding: 20px;
 }
@@ -498,4 +575,8 @@ body {
 } */
 .img_hero_detail_event {
   width: 65% !important;
+}
+.hero_title_layout_bootcamp {
+  font-size: 28px;  
+  color: #fefefe
 }
