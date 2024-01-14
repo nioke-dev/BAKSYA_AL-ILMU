@@ -70,6 +70,9 @@ body {
     font-size: 16px !important;
   }
   .list_why_us_col{
+    padding: 10px !important;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #fff !important;
   }
   .subtitle_why_us{
