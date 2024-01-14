@@ -28,6 +28,12 @@ body {
   color: #fefefe;
   font-weight: 600 !important;
 }
+.hero_title_detail_event{
+  font-size: 32px;
+  color: #fefefe;
+  font-weight: 500 !important;
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -112,7 +118,7 @@ body {
   }
   .img_hero_detail_event_mobile{
     display: block !important;
-    width: 100% !important;
+    width: 85% !important;
     border-radius: 20px;
   }
   .navbar {

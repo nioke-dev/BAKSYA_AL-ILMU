@@ -76,7 +76,7 @@
       <div class="container">
         <div class="row d rowHeroLayoutEvent-flex align-items-center">
           <div class="col-md-6">
-            <img src="assets/img/hiro/2.png" alt="" class="img_hero_event hvr-grow" />
+            <img src="assets/img/hiro/2.png" alt="" class="img_hero_event" />
           </div>
           <div class="col-md-6 text-left title_event">
             <h2 class="hero_title_layout_event">
@@ -101,7 +101,7 @@
           </div>
           <div class="row pt-3">
             <div class="col-md-6 d-flex justify-content-center">
-              <div class="card card_benefit mb-3 hvr-grow-shadow shadow-lg" style="max-width: 540px;">
+              <div class="card card_benefit mb-3 shadow-lg" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="assets/img/icon/1.png" class="img-fluid rounded-start benefit_img" alt="...">
@@ -119,7 +119,7 @@
               </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
-              <div class="card card_benefit mb-3 shadow-lg hvr-grow-shadow" style="max-width: 540px;">
+              <div class="card card_benefit mb-3 shadow-lg" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="assets/img/icon/2.png" class="img-fluid rounded-start benefit_img" alt="...">
@@ -136,7 +136,7 @@
               </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
-              <div class="card card_benefit mb-3  shadow-lg hvr-grow-shadow" style="max-width: 540px;">
+              <div class="card card_benefit mb-3  shadow-lg" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="assets/img/icon/3.png" class="img-fluid rounded-start benefit_img" alt="...">
@@ -153,7 +153,7 @@
               </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
-              <div class="card card_benefit mb-3 shadow-lg hvr-grow-shadow" style="max-width: 540px;">
+              <div class="card card_benefit mb-3 shadow-lg" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="assets/img/icon/4.png" class="img-fluid rounded-start benefit_img" alt="...">
@@ -182,7 +182,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col-md-4 mb-3">
-          <div class="card card_kelas shadow-lg hvr-grow-shadow">
+          <div class="card card_kelas shadow-lg">
             <img class="card-img-top" src="assets/img/Poster/1.jpg" alt="Card image cap" />
             <div class="card-body">
               <div class="alert alert-danger alert_event d-flex align-items-center" role="alert">
@@ -213,7 +213,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card card_kelas shadow-lg hvr-grow-shadow">
+          <div class="card card_kelas shadow-lg">
             <img class="card-img-top" src="assets/img/Poster/2.jpg" alt="Card image cap" />
             <div class="card-body">
               <div class="alert alert-danger alert_event d-flex align-items-center" role="alert">
@@ -244,7 +244,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card card_kelas shadow-lg hvr-grow-shadow">
+          <div class="card card_kelas shadow-lg">
             <img class="card-img-top" src="assets/img/Poster/4.jpg" alt="Card image cap" />
             <div class="card-body">
               <div class="alert alert-danger alert_event d-flex align-items-center" role="alert">
@@ -289,7 +289,7 @@
           <div class="card" style="border: none;">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item hvr-grow-shadow mb-3"
+                <iframe class="embed-responsive-item mb-3"
                   src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen style="width: 100%; height: 250px;""></iframe>
                       </div>
                 </div>
@@ -299,7 +299,7 @@
               <div class="card" style="border: none;">
                 <div class="card-body">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item hvr-grow-shadow mb-3"
+                    <iframe class="embed-responsive-item mb-3"
                       src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen
                       style="width: 100%; height: 250px;""></iframe>
                       </div>
@@ -310,7 +310,7 @@
               <div class="card" style="border: none;">
                 <div class="card-body">
                   <div class=" embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item hvr-grow-shadow mb-3"
+                    <iframe class="embed-responsive-item mb-3"
                       src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen
                       style="width: 100%; height: 250px;"></iframe>
                 </div>
@@ -320,6 +320,34 @@
         </div>
       </div>
   </section>
+  <script>
+    function cekWindowSize() {
+      // Mendapatkan lebar layar
+      var screenWidth =
+        window.innerWidth ||
+        document.documentElement.clientWidth ||
+        document.body.clientWidth;
+
+      // Mendapatkan elemen dengan class "subHeroRow"
+      var elements = document.getElementsByClassName("card");
+
+      // Iterasi melalui elemen dan hapus class ps-5 dan pe-
+      
+
+      for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        if (screenWidth <= 768) {
+          element.classList.remove("hvr-grow");
+          element.classList.remove("hvr-grow");
+        } else {
+          element.classList.add("hvr-grow");
+          element.classList.add("hvr-grow");
+        }
+      }
+    }
+    window.onload = cekWindowSize;
+    window.onresize = cekWindowSize;
+  </script>
   <script>
     let cardKelas = document.querySelectorAll(".card_kelas");
 

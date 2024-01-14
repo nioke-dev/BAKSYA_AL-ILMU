@@ -28,7 +28,7 @@
 <title>Your Website</title>
 </head>
 
-<body>
+<body class="body">
   <div class="wrapper">
     <!-- Navbar Section Start -->
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-left">
-            <img src="assets/img/hiro/1.png" alt="" class="img_hero_home_mobile hvr-grow" />
+            <img src="assets/img/hiro/1.png" alt="" class="img_hero_home_mobile" />
             <h2 class="hero_title">
               <b>
                 Melangkah Bersama Menuju Karakter Unggul Dengan Akhlak Mulia
@@ -93,12 +93,12 @@
               setiap aspek kurikulum kami.
             </p>
             <div class="d-block mt-4">
-              <button class="btn-hero1 hvr-grow">Mulai Sekarang</button>
+              <button class="btn-hero1">Mulai Sekarang</button>
             </div>
           </div>
 
           <div class="col-md-6 mt-2">
-            <img src="assets/img/hiro/1.png" alt="" class="img_hero_home hvr-grow" />
+            <img src="assets/img/hiro/1.png" alt="" class="img_hero_home" />
           </div>
 
         </div>
@@ -122,7 +122,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 d-flex justify-content-center">
-          <img src="assets/logo/2.png" alt="" class="about_us_img hvr-grow" />
+          <img src="assets/logo/2.png" alt="" class="about_us_img" />
         </div>
         <div class="col-md-6">
           <h4 class="about_us_title">
@@ -190,7 +190,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-5">
-          <img src="assets/img/actor/1.png" alt="" class="img_why_us hvr-grow" />
+          <img src="assets/img/actor/1.png" alt="" class="img_why_us" />
         </div>
         <div class="col-md-7">
           <h3 class="title_why_us">
@@ -570,6 +570,17 @@
         } else {
           element.classList.add("ps-5");
           element.classList.add("pe-5");
+        }
+      }
+      var elements = document.getElementsByClassName("card");
+
+      // Iterasi melalui elemen dan hapus class ps-5 dan pe-5
+      for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        if (screenWidth <= 768) {
+          element.classList.remove("hvr-grow");
+        } else {
+          element.classList.add("hvr-grow");
         }
       }
     }

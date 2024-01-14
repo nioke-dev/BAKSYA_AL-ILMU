@@ -84,12 +84,14 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="col-md-6 ps-4">
-              <h2 class="hero_title mt-5">
+              <div class="containerImgHeroDetailEventMobile d-flex justify-content-center">
+                <img src="assets/img/Poster/1.jpg" alt="" class="img_hero_detail_event_mobile">
+              </div>
+              <h2 class="hero_title_detail_event mt-5">
                 <b>
                   Hijrah Hacks : "Tujuan Allah Menciptakan Kita"
                 </b>
               </h2>
-              <img src="assets/img/Poster/1.jpg" alt="" class="img_hero_detail_event_mobile">
               <div class="d-block mt-4 mb-5">
                 <button class="btn btn-hero1 mb-5 hvr-grow-shadow d-block">Daftar Sekarang</button>
               </div>
@@ -99,7 +101,7 @@
               <img
                 src="assets/img/Poster/1.jpg"
                 alt=""
-                class="img_hero_detail_event hvr-grow-shadow"
+                class="img_hero_detail_event"
               />
             </div>
             
@@ -178,7 +180,7 @@
             </div>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <div class="card card_kelas shadow-lg hvr-grow-shadow">
+                <div class="card card_kelas shadow-lg">
                   <img class="card-img-top" src="assets/img/Poster/1.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <div class="alert alert-danger alert_event d-flex align-items-center" role="alert">
@@ -209,7 +211,7 @@
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <div class="card card_kelas shadow-lg hvr-grow-shadow">
+                <div class="card card_kelas shadow-lg">
                   <img class="card-img-top" src="assets/img/Poster/2.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <div class="alert alert-danger alert_event d-flex align-items-center" role="alert">
@@ -271,7 +273,7 @@
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <div class="card card_kelas shadow-lg hvr-grow-shadow">
+                <div class="card card_kelas shadow-lg">
                   <img class="card-img-top" src="assets/img/Poster/3.jpg" alt="Card image cap" />
                   <div class="card-body">
                     <div class="alert alert-danger alert_event d-flex align-items-center" role="alert">
@@ -305,6 +307,7 @@
       </div>
     </section>
     <script>
+      
       function cekWindowSize() {
         // Mendapatkan lebar layar
         var screenWidth =
@@ -324,6 +327,17 @@
           } else {
             element.classList.remove("col-6");
             element.classList.add("col-3");
+          }
+        }
+        var elements = document.getElementsByClassName("card");
+
+        // Iterasi melalui elemen dan hapus class ps-5 dan pe-5
+        for (var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+          if (screenWidth <= 768) {
+            element.classList.remove("hvr-grow-shadow");
+          } else {
+            element.classList.add("hvr-grow-shadow")
           }
         }
       }
