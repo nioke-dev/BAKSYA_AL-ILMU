@@ -8,126 +8,125 @@ body {
   display: flex;
   justify-content: center;
 }
-.img_hero_detail_event_mobile{
+.img_hero_detail_event_mobile {
   display: none;
 }
-.img_detail_course_mobile{
+.img_detail_course_mobile {
   display: none !important;
 }
-.hero_title{
+.hero_title {
   margin-top: 30px;
 }
-.img_hero_home_mobile{
+.img_hero_home_mobile {
   display: none !important;
 }
-.img_hero_boot_mobile{
+.img_hero_boot_mobile {
   display: none;
 }
-.hero_title_main_layout_bootcamp{
+.hero_title_main_layout_bootcamp {
   font-size: 38px;
   color: #fefefe;
   font-weight: 600 !important;
 }
-.hero_title_detail_event{
+.hero_title_detail_event {
   font-size: 32px;
   color: #fefefe;
   font-weight: 500 !important;
-
 }
 
 @media screen and (max-width: 768px) {
-  .heroBawahTitle{
+  .heroBawahTitle {
     font-size: 24px !important;
     font-weight: 600;
   }
-  .heroBawahText{
+  .heroBawahText {
     font-size: 13px !important;
   }
 
-  .containerImgMainCourse{
+  .containerImgMainCourse {
     width: 100%;
     display: flex !important;
     justify-content: center;
-  } 
-  .hero_title_layout_bootcamp{
+  }
+  .hero_title_layout_bootcamp {
     margin-top: 20px;
   }
-  .hero_title_main_layout_bootcamp{
+  .hero_title_main_layout_bootcamp {
     font-size: 28px !important;
     color: #fefefe;
   }
-  .img_hero_boot{
+  .img_hero_boot {
     display: none !important;
   }
-  .img_hero_boot_mobile{
+  .img_hero_boot_mobile {
     display: block;
     width: 100%;
   }
-  .about_us_title{
+  .about_us_title {
     font-size: 28px !important;
   }
-  .title_big_class{
+  .title_big_class {
     font-size: 24px !important;
     font-weight: 450;
   }
-  .list_why_us_text{
+  .list_why_us_text {
     font-size: 12px !important;
   }
-  .title_item_why_us{
+  .title_item_why_us {
     font-size: 16px !important;
   }
-  .list_why_us_col{
+  .list_why_us_col {
     padding: 10px !important;
     margin-left: 10px;
     margin-right: 10px;
     background-color: #fff !important;
   }
-  .subtitle_why_us{
+  .subtitle_why_us {
     font-size: 12px !important;
   }
-  .title_why_us{
+  .title_why_us {
     font-size: 24px !important;
     margin-top: 32px;
   }
-  .subHeroMain2{
+  .subHeroMain2 {
     font-size: 12px !important;
   }
-  .subHeroMain{
+  .subHeroMain {
     font-size: 20px !important;
   }
-  .about_us_text{
+  .about_us_text {
     font-size: 12px !important;
   }
-  .about_us_title{
+  .about_us_title {
     margin-top: 15px;
     font-size: 32px;
   }
-  .img_hero_home_mobile{
+  .img_hero_home_mobile {
     display: block !important;
     width: 100%;
     margin-right: 0px;
     margin-bottom: 15px;
     /* border-radius: 20px; */
   }
-  .img_hero_home{
+  .img_hero_home {
     display: none !important;
   }
-  .hero_title{
+  .hero_title {
     margin-top: 0px;
     font-size: 28px !important;
   }
-  .img_detail_course{
+  .img_detail_course {
     display: none !important;
   }
-  .img_detail_course_mobile{
+  .img_detail_course_mobile {
     display: block !important;
     width: 85% !important;
     border-radius: 20px;
   }
-  .img_hero_detail_event{
+  .img_hero_detail_event {
     display: none !important;
   }
-  .img_hero_detail_event_mobile{
+  .img_hero_detail_event_mobile {
     display: block !important;
     width: 85% !important;
     border-radius: 20px;
@@ -183,7 +182,7 @@ body {
     margin-top: 80px;
     margin-bottom: 120px;
   }
-  .event_brand{
+  .event_brand {
     font-size: 24px !important;
     margin-bottom: 15px;
   }
@@ -394,8 +393,6 @@ body {
   color: #6c6c6c;
 }
 
-.title_event {
-}
 .img_hero_event {
   width: 100%;
   height: 50%;
@@ -416,67 +413,12 @@ body {
   margin-bottom: 10%;
   border-radius: 10%;
 }
-.img_detail_course{
+.img_detail_course {
   width: 80%;
   height: 80%;
   border-radius: 10%;
 }
-/* .footer {
-  padding: 20px;
-}
-.footer_brand {
-  color: #fff;
-}
-.footer_email {
-  color: #fff;
-}
-.footer_telp {
-  color: #fff;
-}
-.footer_list {
-  list-style: none;
-}
-.footer_list_item {
-  color: #fff;
-}
 
-.footer {
-  border-top: 1px solid #e5e5e5;
-  color: #ffffff;
-}
-
-.footer a {
-  color: #ffffff;
-}
-
-.footer a:hover {
-  color: #007bff;
-}
-
-.footer h5 {
-  margin-bottom: 0.5rem;
-}
-
-.footer p {
-  margin-bottom: 1rem;
-}
-
-.footer ul {
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.footer ul li {
-  margin-bottom: 0.25rem;
-}
-
-.footer ul li a {
-  display: block;
-} */
-
-.silabus_path {
-  /* background: linear-gradient(to right, #14325c, #17355e); */
-}
 .silabus {
   background-color: #f2f6f8;
   margin-top: 0px;
@@ -632,6 +574,6 @@ body {
 }
 .hero_title_layout_bootcamp {
   font-weight: 600;
-  font-size: 34px;  
-  color: #fefefe
+  font-size: 34px;
+  color: #fefefe;
 }
